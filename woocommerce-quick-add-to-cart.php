@@ -23,9 +23,9 @@ define('WQATC_PLUGIN_NAME', 'Woocommerce quick add to cart');
 define('WQATC_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('WQATC_PLUGIN_FOLDER', basename(dirname(__FILE__)));
 define('WQATC_PLUGIN_URL', plugin_dir_url(WQATC_PLUGIN_FOLDER).WQATC_PLUGIN_FOLDER.'/');
-define('WQATC_PLUGIN_CSS', TASTY_PLUGIN_URL.'assets/css');
-define('WQATC_PLUGIN_JS', TASTY_PLUGIN_URL.'assets/js');
-define('WQATC_PLUGIN_IMG', TASTY_PLUGIN_URL.'assets/images');
+define('WQATC_PLUGIN_CSS', WQATC_PLUGIN_URL.'assets/css');
+define('WQATC_PLUGIN_JS', WQATC_PLUGIN_URL.'assets/js');
+define('WQATC_PLUGIN_IMG', WQATC_PLUGIN_URL.'assets/images');
 
 
 /**
