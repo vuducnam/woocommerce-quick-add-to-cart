@@ -12,6 +12,14 @@
 defined( 'ABSPATH' ) OR exit;
 
 $woo_attr = self::_get_attribute();
+
+if( isset($_POST['submit']) && $_POST['submit'] == 'Save' ):
+	
+	update_option( 'wqatc_settings', $_POST );
+
+endif;
+
+$wqatc_settings = get_option('wqatc_settings') ? get_option('wqatc_settings') : '';
 ?>
 <style>
 #wqatc-form .row{margin-bottom: 10px;}
